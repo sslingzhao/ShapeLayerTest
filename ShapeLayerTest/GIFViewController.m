@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    self.view.backgroundColor = [UIColor redColor];
+    
     UIButton *dissmissBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 50, 100, 100)];
     dissmissBtn.backgroundColor = [UIColor redColor];
     [dissmissBtn setTitle:@"dissmiss" forState:UIControlStateNormal];
